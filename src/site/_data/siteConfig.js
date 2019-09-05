@@ -1,10 +1,10 @@
 // Some various reusable configuration
 module.exports = {
   siteInformation: {
-    title: "Eleventy for the VF 1.3 + 2.0",
-    short_description: 'This allows using the <a class="vf-link" href="https://www.11ty.io">11ty</a> static site generator with direct access to <a class="vf-link" href="https://github.com/visual-framework/vf-core">Visual Framework 2.0</a> and 1.3 code.',
-    url: "https://ebiwd.github.io/ebi-eleventy-boilerplate/",
-    author: "Visual Framework system",
-    email: "ken.hawkins@embl.de",
+    title: "Bioinformatics for the terrified",
+    short_description: 'This course will give you a broad overview of how bioinformatics can enable bench-based research. It is aimed at experimental researchers in the molecular life sciences who have little or no previous experience of using bioinformatics databases or tools.',
+    url: "https://ebiwd.github.io/bioinformatics-book/",
+    author: "EBI Web Development",
+    email: "wwwwdev@ebi.ac.uk",
   }
 };
