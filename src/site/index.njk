@@ -1,39 +1,93 @@
 ---
+title: "Annotate your proteins with the UniProt Functional Annotation system UniFire"
 subtitle: No homepage, yet.
 date: 2018-08-22 12:24:50
 layout: layouts/base.njk
-templateEngineOverride: njk, md
 ---
 
-{% render '@vf-intro', {"vf_intro_phase": "alpha", "vf_intro_heading": siteConfig.siteInformation.title,
+<div class="vf-u-margin__top--xxl"></div>
+
+{% render '@vf-intro', {"vf_intro_phase": "", "vf_intro_heading": title,
   "vf_intro_lede": siteConfig.siteInformation.short_description,
   "vf_intro_text": [
-    "☝️ that also means dynamic building of just the CSS and JS you need."
   ]
 } %}
 
+
+
+<a href="#" class="vf-button vf-button--primary"><i class="icon icon-common icon-play"></i> Start</a>
+
+
 <section class="embl-grid embl-grid--has-centered-content">
+  <div><!-- empty --></div>
   <div>
-    <!-- empty -->
+    <p class="vf-intro__text"><img src="https://www.ebi.ac.uk/training/online/sites/ebi.ac.uk.training.online/files/styles/full_width/public/the_scream_new_0.jpg?itok=tmPFUAmC" style="width: 60%"></p>
+
+    {% include "partials/nav_bar.njk" %}
+
+    <p class="vf-u-type__text-body--1">This course will give you a broad overview of how bioinformatics can enable bench-based research. It is aimed at experimental researchers in the molecular life sciences who have little or no previous experience of using bioinformatics databases or too.</p>
+
+
   </div>
-  <div class="vf-content">
-  {% markdown %}
-
-
-  {% endmarkdown %}
-
-  </div>
+ <div>
+  <p></p>
+    <i class="icon icon-common icon-hourglass-half"></i> 1 Hour <a href="#" class="button">Start</a>
+ </div>
 </section>
 
+<section class="embl-grid embl-grid--has-centered-content">
+  <div><!-- empty --></div>
+  <div class="vf-content" id="overview">
+    <p>This course will give you a broad overview of how bioinformatics can enable bench-based research:</p>
+    <p>This course covers the following topics:</p>
+
+    <ul class="vf-list vf-list--unordered">
+      <li class="vf-list__item"><a href="#">Bioinformaics</a></li>
+      <li class="vf-list__item"><a href="#">Data quality management</a></li>
+      <li class="vf-list__item"><a href="#">Data management</a></li>
+      <li class="vf-list__item"><a href="#">Ontology and terminology</a></li>
+    </ul>
+
+    <p>This course includes:
+
+    <ul class="vf-list vf-list--inline">
+      <li class="vf-list__item"><a href="#" class="vf-button vf-button--primary"><i class="icon icon-common icon-question-circle"></i> Quizzes</a></li>
+      <li class="vf-list__item"><a href="#" class="vf-button vf-button--primary"><i class="icon icon-common icon-video"></i> Videos</a></li>
+    </ul></p>
+    <p><a href="#">View the course syllabus for more details</a>.</p>
+
+  </div>
+  <div><!-- empty --></div>
+</section>
 
 <section class="vf-intro | embl-grid embl-grid--has-centered-content">
+  <div><!-- empty --></div>
+  <div class="vf-content" id="objectives">
+    <h2>What will you achieve?</h2>
+    <p>By the end of the course you will be able to:</p>
+    {% markdown %}
+      - Assess the role of bioinformatics in molecular science
+      - Describe the key features of primary and secondary databases
+      - List strategies for describing data consistently
+      - Identify some of the different types of data analysis that can be applied to solving biological problems
+    {% endmarkdown %}
 
-<div>
-  <!-- empty -->
-</div>
-<div class="vf-content">
+    <h2 id="audience">Who is this course for?</h2>
+    <p>This course if aimed at elemental reseachers in molecular life sciences who have little or no previous experience of using bioinformatics databases or tools</p>
+    <p>An undergraduate degree in a subject related to the molecular life sciences would be an advantage</p>
 
+    <h2 id="requirements">What do you need?</h2>
+    <p>This course does not have any technical requirements</p>
 
+    <h2 id="more">More information about this course</h2>
+    <p>This course was written by:
+      <ul class="vf-list vf-list--unordered">
+        <li class="vf-list__item"><a href="#">Cath Brooksbank</a></li>
+        <li class="vf-list__item"><a href="#">Andrew Cowley</a></li>
+      </ul>
+    </p>
 
-</div>
+    <p>Last reviewed: March 2018</p>
+    <p>DOI: 10.6019/TOL.BioinfTer-c_2016.00001.1</p>
+  </div>
 </section>

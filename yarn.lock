@@ -584,6 +584,11 @@
   version "1.0.0-rc.3"
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-no-js/-/vf-no-js-1.0.0-rc.3.tgz#d4b790e202f5c7c653c3b68b78ed54ae8fa0effb"
 
+"@visual-framework/vf-pagination@^1.0.0-alpha.5":
+  version "1.0.0-alpha.5"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-pagination/-/vf-pagination-1.0.0-alpha.5.tgz#39c43b1d817da93e0c7f9a40b79a8aef66b5f778"
+  integrity sha512-MGq2Ek32/HKRDCRbvD49u2ksmR8dAFtEcPH2NHugliNQP6oSK6fbBx85Y6ZlEtT+nF+jZVbGo8BGx55Z1zaT9g==
+
 "@visual-framework/vf-sass-config@^1.0.0-beta.3":
   version "1.0.0-beta.3"
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-sass-config/-/vf-sass-config-1.0.0-beta.3.tgz#3eca42bd1e452af5777b565bfeda6ef621a348f1"
@@ -591,6 +596,11 @@
 "@visual-framework/vf-text@^1.0.0-beta.3":
   version "1.0.0-beta.3"
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-text/-/vf-text-1.0.0-beta.3.tgz#7162adf25817dc0ef6ab6ef898f82bbe259ac917"
+
+"@visual-framework/vf-utility-classes@^1.0.0-beta.5":
+  version "1.0.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-utility-classes/-/vf-utility-classes-1.0.0-beta.5.tgz#b7d39f95e797da786421c01e4f5978525db0a498"
+  integrity sha512-F6g+pSBJTd6lczg6O/gSv8hHodXSgxDOZHXxgua2knaPI8sRHGkRJa0y8zJGlAIjfuMcY3uin0GCu/Nt5VEzCw==
 
 "@yarnpkg/lockfile@^1.0.2":
   version "1.1.0"

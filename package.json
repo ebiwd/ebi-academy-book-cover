@@ -10,8 +10,8 @@
   "author": "Ken Hawkins <ken.hawkins@embl.de> (https://www.embl.de/aboutus/communication_outreach/)",
   "main": "gulpfile.js",
   "vfConfig": {
-    "vfName": "VF Boilerplate for Eleventy",
-    "vfNamespace": "vfeleventy-",
+    "vfName": "EBI Academy",
+    "vfNamespace": "ebiacademy-",
     "vfComponentPath": "./src/components",
     "vfBuildDestination": "./build",
     "vfThemePath": "@frctl/mandelbrot"
@@ -51,6 +51,7 @@
     "@visual-framework/vf-no-js": "1.0.0-rc.3",
     "@visual-framework/vf-sass-config": "^1.0.0-beta.3",
     "@visual-framework/vf-text": "^1.0.0-beta.3",
+    "@visual-framework/vf-utility-classes": "^1.0.0-beta.5",
     "concurrent-transform": "^1.0.0",
     "del": "^5.0.0",
     "dotenv": "^8.0.0",
@@ -86,5 +87,8 @@
     "url": "https://github.com/visual-framework/vf-eleventy/issues"
   },
   "homepage": "https://github.com/visual-framework/vf-eleventy#readme",
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "@visual-framework/vf-pagination": "^1.0.0-alpha.5"
+  }
 }
