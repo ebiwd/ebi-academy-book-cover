@@ -12,7 +12,9 @@ status: alpha
 context:
   component-type: container
   # custom-values: passed as {{custom-values}}
-  # title: Title text
+  title: Title text
+  time: 1 hour
+  book_url: //www.ebi.ac.uk/#start_a_book
   # text: String of text
   # image: ../../assets/vf-component-name/assets/vf-component-name.png
   # - note on paths: be sure to prefix with `../../`

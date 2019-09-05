@@ -7,6 +7,8 @@ layout: layouts/base.njk
 
 <div class="vf-u-margin__top--xxl"></div>
 
+{% render '@ebiacademy-book-start', {title: "mytitle", time: "2 days", book_url: "http"} %}
+
 {% render '@vf-intro', {"vf_intro_phase": "", "vf_intro_heading": title,
   "vf_intro_lede": siteConfig.siteInformation.short_description,
   "vf_intro_text": [
