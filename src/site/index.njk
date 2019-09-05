@@ -12,7 +12,8 @@ layout: layouts/base.njk
 <section class="embl-grid embl-grid--has-centered-content">
   <div><!-- empty --></div>
   <div>
-    <p class="vf-intro__text"><img src="https://www.ebi.ac.uk/training/online/sites/ebi.ac.uk.training.online/files/styles/full_width/public/the_scream_new_0.jpg?itok=tmPFUAmC" style="width: 60%"></p>
+
+    {% render '@ebiacademy-book-image', {path: "https://www.ebi.ac.uk/training/online/sites/ebi.ac.uk.training.online/files/styles/full_width/public/the_scream_new_0.jpg?itok=tmPFUAmC", alt_text: "My text"} %}
 
     {% include "partials/nav_bar.njk" %}
 
