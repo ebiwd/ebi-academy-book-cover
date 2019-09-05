@@ -1,5 +1,12 @@
 <div class="ebiacademy-book-start">
-  {{ title }}
-  <span class="ebiacademy-book-start--duration">{{ time }}</span>
-  <span class="ebiacademy-book-start--button">{{ book_url }}</span>
+  <div class="ebiacademy-book-start--title-container">
+    <h1 class="ebiacademy-book-start--title">{{ title }}</h1>
+    <span class="ebiacademy-book-start--subtitle">{{ subtitle }}</span>
+  </div>
+  <div class="ebiacademy-book-start--duration">
+    <i class="icon icon-common icon-hourglass-half"></i> {{ time }}
+  </div>
+  <div class="ebiacademy-book-start--button">
+    <a href="{{ book_url }}" class="vf-button vf-button--primary"><i class="icon icon-common icon-play"></i> Start</a>
+  </div>
 </div>

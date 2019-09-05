@@ -10,5 +10,34 @@
 @import 'ebiacademy-book-start.variables.scss';
 
 .ebiacademy-book-start {
-  // color: red !important;
+  border-bottom: 1px solid set-color(vf-color--grey--lightest);
+  @include margin--block(bottom, 24px);
+  padding-bottom: map-get($vf-spacing-map, vf-spacing--md);
+  height: 100%;
+
+  display: flex;
+}
+
+.ebiacademy-book-start--title-container {
+  flex-grow: 1;
+  align-self: center;
+}
+
+.ebiacademy-book-start--title {
+  @include set-type(text-heading--1, $custom-margin-bottom: disable);
+}
+
+.ebiacademy-book-start--subtitle {
+  @include set-type(text-body--2, $custom-margin-bottom: disable);
+
+}
+
+.ebiacademy-book-start--duration {
+  @include set-type(text-body--2, $custom-margin-bottom: disable);
+  align-self: center;
+}
+
+.ebiacademy-book-start--button {
+  align-self: center;
+  margin-left: 10px
 }
