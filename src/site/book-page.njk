@@ -1,40 +1,41 @@
 ---
-title: "Bioinformatics for the Terrified"
-subtitle: An introduction to the science of bioinformatics
+title: "Welcome Page for Bioinformatics for the Terrified"
+subtitle: bla bla...
 date: 2018-08-22 12:24:50
-layout: layouts/base.njk
+layout: layouts/page.njk
 ---
 
 <div class="vf-u-margin__top--xxl"></div>
-<section>
-{% render '@ebiacademy-book-start', {title: title, subtitle: subtitle, time: "2 days", book_url: "/bioinformatics-book/book-page"} %}
-</section>
+
+<div class="ebiacademy-book-start--title-container">
+    <h1 class="ebiacademy-book-start--title">{{ title }}</h1>
+</div>
 
 <section class="embl-grid embl-grid--has-centered-content">
+  <div><!-- empty --></div>
   <div>
-  <ul class="vf-list vf-list--unordered">
-      <li class="vf-list__item">Bioinformaics</li>
-      <li class="vf-list__item">Data quality management</li>
-      <li class="vf-list__item">Data management</li>
-      <li class="vf-list__item">Ontology and terminology</li>
-    </ul>
-
-  </div>
-  <div>
-
-    {% render '@ebiacademy-book-image', {path: "https://www.ebi.ac.uk/training/online/sites/ebi.ac.uk.training.online/files/styles/full_width/public/the_scream_new_0.jpg?itok=tmPFUAmC", alt_text: "My text"} %}
-
-    {% include "partials/nav_bar.njk" %}
-
-    <p class="vf-u-type__text-body--1">This course will give you a broad overview of how bioinformatics can enable bench-based research. It is aimed at experimental researchers in the molecular life sciences who have little or no previous experience of using bioinformatics databases or too.</p>
-
+    <p class="vf-u-type__text-body--1">This is the welcome page that walks through the trainees to the course...</p>
   </div>
  <div>
  </div>
 </section>
 
 <section class="embl-grid embl-grid--has-centered-content">
-  <div><!-- empty --></div>
+  <div><div class="column">
+  <ul class="simple vertical menu">
+    <li><a href="#">Item 1</a></li>
+    <li><a href="#">Item 2</a></li>
+    <li><a href="#">Sub-parent</a>
+    <ul class="simple menu">
+      <li><a href="#">Child 1</a></li>
+      <li><a class="active" href="#">Child 2 (active)</a></li>
+      <li><a href="#">Child 3</a></li>
+      <li><a href="#">Child 4</a></li>
+    </ul>
+    </li>
+    <li><a href="#">Item 4</a></li>
+  </ul>
+</div></div>
   <div class="vf-content" id="overview">
     <p>This course will give you a broad overview of how bioinformatics can enable bench-based research:</p>
     <p>This course covers the following topics:</p>

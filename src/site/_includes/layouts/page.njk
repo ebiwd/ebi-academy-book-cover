@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+pageClass: bookPages
+templateEngineOverride: njk, md
+---
+
+<nav aria-label="You are here:" role="navigation">
+<ul class="breadcrumbs columns">
+  <li><a href="../../">EBI Framework</a></li>
+  <li><a href="../">Sample book page</a></li>
+  <li>
+    <span class="show-for-sr">Current: </span> Blank boilerplate
+  </li>
+</ul>
+</nav>
+<div class="columns">
+  <div class="vf-grid">
+    <div>
+      {{ content | safe }}
+    </div>
+  </div>
+</div>
