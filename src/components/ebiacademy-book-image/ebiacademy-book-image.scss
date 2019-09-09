@@ -10,5 +10,7 @@
 @import 'ebiacademy-book-image.variables.scss';
 
 .ebiacademy-book-image {
-  // centred container here
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin-left: 10px;
 }

@@ -3,3 +3,24 @@
 /* temporary override until https://github.com/visual-framework/vf-core/issues/399 is resolved */
 .vf-sr-only { display: none; }
   
+
+.ebiacademy-book-cover-navigation-bar nav ul.vf-pagination__list li {
+    border-right: 2px solid #d0d0ce;
+    float: left;
+    margin-left: 0;
+    /* compliance compatibility */
+    // border-top: 1px solid #d0d0ce;
+}
+
+.ebiacademy-book-cover-navigation-bar nav ul.vf-pagination__list li:last-child,
+.ebiacademy-book-cover-navigation-bar nav ul.vf-pagination__list li.active {
+    border-right: 0;
+}
+
+.ebiacademy-book-cover-navigation-bar nav ul.vf-pagination__list li.float-right {
+    border-right: none;
+}
+
+.ebiacademy-book-cover-navigation-bar nav a, .ebiacademy-book-cover-navigation-bar a:visited {
+    border: none;
+}
