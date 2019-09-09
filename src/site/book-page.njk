@@ -11,13 +11,11 @@ layout: layouts/page.njk
     <h1 class="ebiacademy-book-start--title">{{ title }}</h1>
 </div>
 
+{% render '@ebiacademy-book-page-header', {title: title, subtitle: subtitle, home: "/bioinformatics-book", summary: "/bioinformatics-book/book-page"} %}
+
+
 <section class="embl-grid embl-grid--has-centered-content">
   <div><!-- empty --></div>
-  <div>
-    <p class="vf-u-type__text-body--1">This is the welcome page that walks through the trainees to the course...</p>
-  </div>
- <div>
- </div>
 </section>
 
 <section class="embl-grid embl-grid--has-centered-content">
@@ -37,16 +35,14 @@ layout: layouts/page.njk
   </ul>
 </div></div>
   <div class="vf-content" id="overview">
-    <p>This course will give you a broad overview of how bioinformatics can enable bench-based research:</p>
-    <p>This course covers the following topics:</p>
-
+    <p>This is the welcome page that walks through the trainees to the course...</p>
+    <h2>How to check your learning</h2>
     <ul class="vf-list vf-list--unordered">
       <li class="vf-list__item">Bioinformaics</li>
       <li class="vf-list__item">Data quality management</li>
       <li class="vf-list__item">Data management</li>
       <li class="vf-list__item">Ontology and terminology</li>
     </ul>
-
     <p>This course includes:
 
     <ul class="vf-list vf-list--inline">

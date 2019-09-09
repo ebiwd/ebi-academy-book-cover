@@ -1,0 +1,43 @@
+// ebiacademy-book-page-header
+
+// **Thinking about deleting this file?**
+// If your component needs no CSS/Sass, we still recommend leaving the
+// scss files in place. As this is primarily a CSS framework, it is better to
+// leave the empty files so you know a file wasn't accidently omitted.
+// If you don't have any Sass, you can trim this block down to:
+// "This page was intentionally left blank"
+
+@import 'ebiacademy-book-page-header.variables.scss';
+
+.ebiacademy-book-page-header {
+    border-bottom: 1px solid set-color(vf-color--grey--lightest);
+    @include margin--block(bottom, 24px);
+    padding-bottom: map-get($vf-spacing-map, vf-spacing--md);
+    height: 100%;
+  
+    display: flex;
+  }
+  
+  .ebiacademy-book-page-header--container {
+    flex-grow: 1;
+    align-self: center;
+  }
+  
+  .ebiacademy-book-page-header--title {
+    @include set-type(text-heading--1, $custom-margin-bottom: disable);
+  }
+  
+  .ebiacademy-book-page-header--subtitle {
+    @include set-type(text-body--2, $custom-margin-bottom: disable);
+  
+  }
+  
+  .ebiacademy-book-page-header--summary {
+    @include set-type(text-body--2, $custom-margin-bottom: disable);
+    align-self: center;
+  }
+  
+  .ebiacademy-book-page-header--home {
+    align-self: center;
+    margin-left: 10px
+  }
