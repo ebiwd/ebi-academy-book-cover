@@ -14,30 +14,30 @@
     @include margin--block(bottom, 24px);
     padding-bottom: map-get($vf-spacing-map, vf-spacing--md);
     height: 100%;
-  
+
     display: flex;
-  }
-  
-  .ebiacademy-book-page-header--container {
+}
+
+.ebiacademy-book-page-header--container {
     flex-grow: 1;
     align-self: center;
-  }
-  
-  .ebiacademy-book-page-header--title {
-    @include set-type(text-heading--1, $custom-margin-bottom: disable);
-  }
-  
-  .ebiacademy-book-page-header--subtitle {
-    @include set-type(text-body--2, $custom-margin-bottom: disable);
-  
-  }
-  
-  .ebiacademy-book-page-header--summary {
-    @include set-type(text-body--2, $custom-margin-bottom: disable);
-    align-self: center;
-  }
-  
-  .ebiacademy-book-page-header--home {
-    align-self: center;
-    margin-left: 10px
-  }
+}
+
+.ebiacademy-book-page-header--title {
+@include set-type(text-heading--1, $custom-margin-bottom: disable);
+}
+
+.ebiacademy-book-page-header--subtitle {
+@include set-type(text-body--2, $custom-margin-bottom: disable);
+
+}
+
+.ebiacademy-book-page-header--summary {
+@include set-type(text-body--2, $custom-margin-bottom: disable);
+align-self: center;
+}
+
+.ebiacademy-book-page-header--home {
+align-self: center;
+margin-left: 10px
+}
